@@ -1,4 +1,4 @@
-public class Main1 {
+public class MainInvoiceitem {
     public static void main(String[] args) {
         Invoiceitem i1 = new Invoiceitem("A1001", "Pen red", 888, 0.08);
         System.out.println(i1);

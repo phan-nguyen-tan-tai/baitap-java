@@ -1,4 +1,4 @@
-public class luong {
+public class MainEmployee {
     public static void main(String[] args) {
         Employee e1 = new Employee(1,"tan", "tai", 1500);
         System.out.println(e1+" name " +e1.Name());

@@ -33,8 +33,30 @@ public class Account {
         return balance;
     }
 
+    public int debit(int amount){
+        if (amount <= balance) {
+            balance = balance - amount;
+        }
+        else {
+            System.out.println("amount exceeded balance");
+        }
+            return balance;
+        }
 
+    public int transferTo(Account another, int amount){
+        if (amount <= balance) {
+        }else{
+            System.out.println("amount exceeded balance");
+        }
+        return balance;
+    }
 
-
-
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
 }

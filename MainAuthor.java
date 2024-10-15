@@ -6,6 +6,10 @@ public class MainAuthor {
         System.out.println("email is: "+a1.getEmail());
         System.out.println("gender is: "+a1.getGender());
 
+        Book b1 =new Book("");
+
+        System.out.println(b1);
+
 
     }
 }
