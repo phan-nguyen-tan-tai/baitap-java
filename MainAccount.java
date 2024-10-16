@@ -1,7 +1,7 @@
 public class MainAccount {
     public static void main(String[] args) {
         Account a1 = new Account("A1001", "tan tai", 88);
-        Account a2 = new Account("A1002", "duc thang", 0);
+        Account a2 = new Account("A1002", "duc thang");
         System.out.println(a1);
         System.out.println(a2);
 
