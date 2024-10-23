@@ -1,3 +1,5 @@
+package bai1_5;
+
 public class MainInvoiceitem {
     public static void main(String[] args) {
         Invoiceitem i1 = new Invoiceitem("A1001", "Pen red", 888, 0.08);

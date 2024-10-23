@@ -1,3 +1,5 @@
+package bai1_3;
+
 public class Retangle {
     private float length;
     private float width;
@@ -33,6 +35,6 @@ public class Retangle {
         return (length+width)*2;
     }
     public String toString(){
-        return "Retangle{" + "length=" + length + ", width=" + width + '}';
+        return "bai1_3.Retangle{" + "length=" + length + ", width=" + width + '}';
     }
 }

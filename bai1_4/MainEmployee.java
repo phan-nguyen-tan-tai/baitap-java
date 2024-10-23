@@ -1,3 +1,5 @@
+package bai1_4;
+
 public class MainEmployee {
     public static void main(String[] args) {
         Employee e1 = new Employee(1,"tan", "tai", 1500);
