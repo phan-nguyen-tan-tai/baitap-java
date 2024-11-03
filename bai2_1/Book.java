@@ -1,3 +1,5 @@
+package bai2_1;
+
 public class Book {
     private String name;
     private Author author;
@@ -38,12 +40,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{" +
-                "name='" + name + '\'' +
-                ", author=" + author +
-                ", price=" + price +
-                ", qty=" + qty +
-                '}';
+        return "bai2_1.bai2_2.Book[ name: " + name + ", author: " + author + ", price: " + price + ", qty: " + qty + "]";
     }
 
 }
