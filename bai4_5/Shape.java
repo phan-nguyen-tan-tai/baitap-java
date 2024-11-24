@@ -30,6 +30,6 @@ public class Shape {
 
     @Override
     public String toString() {
-        return " Shape [ " + " color: " + color + ", filled=" + filled + "]";
+        return " bai6_1.Shape [ " + " color: " + color + ", filled=" + filled + "]";
     }
 }

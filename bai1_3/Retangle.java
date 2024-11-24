@@ -35,6 +35,6 @@ public class Retangle {
         return (length+width)*2;
     }
     public String toString(){
-        return "bai1_3.Retangle{" + "length=" + length + ", width=" + width + '}';
+        return "bai1_3.bai6_1.Retangle{" + "length=" + length + ", width=" + width + '}';
     }
 }
